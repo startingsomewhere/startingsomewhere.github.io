@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+body {
+	background-color: rgba(0,0,0,.5)
+}
+
+header {
+   background-color: #FFED74;
+}
+
+nav {
+   background-color: #E8C66A;
+}
+
+aside {
+   background-color: #FFC675;
+}
+
+article {
+   background-color: #E89C6C;
+}
+
+footer {
+   background-color: #FF957E;
+}
+
+div {
+   background-color: #FFE2B8;
+}
+
+section {
+   background-color: #FFE2B8;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+h1 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 300
+   color: rgba(255,0,0,.7);
+}
+#slogan {
+	font-style: italic;
+}
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.clearfix:after {
+   visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+h2 { 
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+p {
+	font-family: 'Poppins', sans-serif;
+    font-weight: 500
+	font-size: 14px
+}
+
+@media screen only and (max-width: 880px) {
+  .image {
+  width: 50%; /* for IE 6 */
+  }
+}
