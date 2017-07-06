@@ -91,7 +91,7 @@ p {
 }
 
 @media screen only and (max-width: 880px) {
-  .image {
-  width: 50%; /* for IE 6 */
+  img {
+  width: 50%; 
   }
 }
